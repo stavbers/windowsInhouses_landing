@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --font-family: "Open Sans", sans-serif;
   --content-width: 1240px;
@@ -129,7 +130,7 @@ a {
   color: #fff;
   background-color: rgb(142, 98, 217);
   position: absolute;
-  top: 170px;
+  top: 120px;
   right: 0px;
 }
 .header-info__title {
@@ -185,6 +186,7 @@ a {
 }
 .menu__item {
   list-style: none;
+  position: relative;
   width: 328px;
   height: 60px;
   display: -webkit-box;
@@ -252,6 +254,81 @@ a {
   border: 1px solid #fff;
 }
 
+@media (max-width: 1270px) {
+  .menu__item {
+    max-width: 320px;
+  }
+  .menu__item:last-child, .header-info {
+    max-width: 240px;
+  }
+  .header-info {
+    max-width: 240px;
+  }
+}
+@media (max-width: 1230px) {
+  .menu__item {
+    max-width: 300px;
+  }
+  .menu__item:last-child {
+    max-width: 240px;
+  }
+}
+@media (max-width: 1170px) {
+  .menu__item {
+    max-width: 290px;
+  }
+  .menu__item:last-child {
+    max-width: 220px;
+  }
+  .header-info {
+    max-width: 220px;
+  }
+}
+@media (max-width: 1120px) {
+  .menu__item {
+    max-width: 280px;
+  }
+}
+@media (max-width: 1090px) {
+  .menu {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .menu__item {
+    max-width: 320px;
+  }
+  .menu__item:last-child {
+    display: none;
+  }
+  .header-info {
+    display: none;
+  }
+}
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  .menu__item {
+    max-width: 300px;
+  }
+}
+@media (max-width: 930px) {
+  .menu__item {
+    max-width: 270px;
+  }
+}
+@media (max-width: 840px) {
+  .menu {
+    display: none;
+  }
+}
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
 .page__body {
   display: -webkit-box;
   display: -ms-flexbox;
