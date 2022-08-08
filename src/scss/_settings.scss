@@ -8,6 +8,9 @@ html {
   box-sizing: inherit;
 }
 
+@mixin liststyle {
+  list-style: none;
+}
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);
