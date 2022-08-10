@@ -1,0 +1,67 @@
+.wind-price {
+
+  &__wrp {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 55px;
+    width: 800px;
+    display: flex;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    padding-bottom: 40px;
+  }
+
+  &__info {
+    margin-left: 35px;
+    width: 300px;
+  }
+
+  &__title {
+    @include margPad0;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #5B5B5B;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  &__descr {
+    @include margPad0;
+    color: #5B5B5B;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  &__link {
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #F26689;
+    padding: 10px 20px;
+  }
+
+  &__img {
+    position: absolute;
+    height: 300px;
+    top: -50px;
+    right: 0px;
+  }
+
+  &__alert {
+    text-align: center;
+    color: #5B5B5B;
+    font-weight: 600;
+    font-size: 18px;
+    & span {
+      display: block;
+      color: #9D62DD;
+    }
+  }
+}
