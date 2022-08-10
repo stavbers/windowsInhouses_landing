@@ -600,6 +600,7 @@ a {
   color: #5B5B5B;
   font-weight: 600;
   font-size: 18px;
+  margin-bottom: 50px;
 }
 .wind-price__alert span {
   display: block;
