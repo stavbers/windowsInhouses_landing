@@ -1,0 +1,61 @@
+.house-type {
+  background-color: #9D62DD;
+  position: relative;
+
+
+  &__title {
+    @include margPad0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 90px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 140px;
+  }
+  &__block {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -120px;
+    
+  }
+}
+
+.type-block {
+  &__menu {
+    @include margPad0;
+    display: flex;
+  }
+
+  &__item {
+    @include liststyle;
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+  }
+
+  &__link {
+    display: block;
+    color: #6C6577;
+    text-align: center;
+  }
+
+  &__image {
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 7px solid transparent;
+    &:hover {
+      border: 7px solid #F26689;
+    }
+  }
+}

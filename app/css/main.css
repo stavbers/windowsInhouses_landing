@@ -329,6 +329,65 @@ a {
 @media (max-width: 575px) {
   /* CSS для ширины до 575px (включительно) */
 }
+.house-type {
+  background-color: #9D62DD;
+  position: relative;
+}
+.house-type__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 90px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.house-type__subtitle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 140px;
+}
+.house-type__block {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  bottom: -120px;
+}
+
+.type-block__menu {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.type-block__item {
+  list-style: none;
+}
+.type-block__item:not(:last-child) {
+  margin-right: 100px;
+}
+.type-block__link {
+  display: block;
+  color: #6C6577;
+  text-align: center;
+}
+.type-block__image {
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+}
+.type-block__image:hover {
+  border: 7px solid #F26689;
+}
+
 .page__body {
   display: -webkit-box;
   display: -ms-flexbox;
