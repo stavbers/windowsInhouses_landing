@@ -472,7 +472,7 @@ a {
 .type-bottom__item {
   list-style: none;
   margin-top: 30px;
-  max-width: 605px;
+  width: 605px;
   height: 430px;
   border-radius: 5px;
   color: #fff;
@@ -502,16 +502,34 @@ a {
   margin: 0;
   padding: 0;
   margin-left: 95px;
+  padding-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .type-bottom__price {
   margin: 0;
   padding: 0;
   margin-left: 95px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.type-bottom__price span {
+  font-size: 48px;
+  margin-left: 9px;
+  margin-right: 9px;
+  font-weight: bold;
+  color: #DF59CA;
 }
 .type-bottom__descr {
   margin: 0;
   padding: 0;
   margin-left: 95px;
+  width: 310px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 .type-bottom__link {
   text-transform: uppercase;
