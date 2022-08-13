@@ -737,6 +737,70 @@ a {
   font-size: 14px;
 }
 
+.lamin-wind {
+  padding-bottom: 100px;
+}
+.lamin-wind__title {
+  margin: 0;
+  padding: 0;
+  color: #5B5B5B;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.lamin-wind__descr {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #5B5B5B;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 45px;
+}
+.lamin-wind__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.lamin-wind__item {
+  text-align: center;
+  margin-right: 95px;
+  width: 200px;
+}
+.lamin-wind__img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.lamin-wind__info {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  color: #5B5B5B;
+}
+.lamin-wind__link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #9862D3;
+  color: #fff;
+  font-size: 14px;
+  width: 467px;
+  padding: 12px 25px;
+  border-radius: 3px;
+}
+
 .page__body {
   display: -webkit-box;
   display: -ms-flexbox;
