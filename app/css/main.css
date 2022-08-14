@@ -931,6 +931,7 @@ a {
   margin-bottom: 30px;
 }
 .wind-fitings__wrp {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -938,8 +939,16 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.wind-fitings__wrp::before {
+  position: absolute;
+  content: url(/img/logo_roto1.png);
+  bottom: 15px;
+  left: 27%;
+  width: 80px;
+  height: 30px;
+}
 .wind-fitings__img {
-  position: relative;
+  display: block;
   margin-right: 100px;
   width: 450px;
   height: 300px;

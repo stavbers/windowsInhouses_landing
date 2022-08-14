@@ -21,15 +21,26 @@
   }
 
   &__wrp {
+    position: relative;
     display: flex;
     justify-content: center;
+    &::before {
+      position: absolute;
+      content: url(/img/logo_roto1.png);
+      bottom: 15px;
+      left: 27%;
+      width: 80px;
+      height: 30px;
+    }
   }
 
   &__img {
-    position: relative;
+
+    display: block;
     margin-right: 100px;
     width: 450px;
     height: 300px;
+
   }
 
   &__list {
