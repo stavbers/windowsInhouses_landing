@@ -801,6 +801,113 @@ a {
   border-radius: 3px;
 }
 
+.glass-pack__title {
+  margin: 0;
+  padding: 0;
+  color: #5B5B5B;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.glass-pack__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.glass-pack__item {
+  text-align: center;
+  cursor: pointer;
+  color: #9862D3;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #F6F1FC;
+  border: 1px solid #9D62DD;
+  padding: 10px 30px;
+  border-radius: 20px;
+  max-width: 220px;
+  margin-right: 10px;
+}
+.glass-pack__item:last-child {
+  margin-right: 0px;
+}
+.glass-pack__item_active {
+  background-color: #9D62DD;
+  color: #fff;
+}
+.glass-pack__content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pack-content__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.pack-content__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 80px;
+  max-width: 420px;
+}
+.pack-content__title {
+  margin: 0;
+  padding: 0;
+  color: #9D62DD;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.pack-content__text {
+  margin-bottom: 20px;
+  position: relative;
+}
+.pack-content__text::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -25px;
+  width: 10px;
+  height: 10px;
+  background-color: #9D62DD;
+  border-radius: 50%;
+}
+.pack-content__img {
+  width: 380px;
+  height: 450px;
+}
+.pack-content__link {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #F26689;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  width: 185px;
+  border-radius: 4px;
+}
+
 .our-works__title {
   margin: 0;
   padding: 0;
