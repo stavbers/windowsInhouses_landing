@@ -908,6 +908,79 @@ a {
   border-radius: 4px;
 }
 
+.wind-fitings {
+  padding-bottom: 100px;
+}
+.wind-fitings__title {
+  margin: 0;
+  padding: 0;
+  color: #5B5B5B;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.wind-fitings__descr {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #5B5B5B;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wind-fitings__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wind-fitings__img {
+  position: relative;
+  margin-right: 100px;
+  width: 450px;
+  height: 300px;
+}
+.wind-fitings__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+}
+.wind-fitings__item {
+  position: relative;
+  font-size: 18px;
+  color: #5B5B5B;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.wind-fitings__item::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -25px;
+  width: 10px;
+  height: 10px;
+  background-color: #9D62DD;
+  border-radius: 50%;
+}
+.wind-fitings__link {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #F26689;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  width: 185px;
+  border-radius: 4px;
+}
+
 .our-works__title {
   margin: 0;
   padding: 0;
