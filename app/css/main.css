@@ -1021,6 +1021,23 @@ a {
   max-width: 413px;
 }
 
+.our-works span {
+  display: block;
+  margin-bottom: 20px;
+  color: #5B5B5B;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.our-works__info {
+  padding-top: 50px;
+  text-align: center;
+}
+.our-works__insta {
+  width: 40px;
+  height: 40px;
+}
+
 .page__body {
   display: -webkit-box;
   display: -ms-flexbox;
