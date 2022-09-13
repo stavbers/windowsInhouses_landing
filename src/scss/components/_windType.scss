@@ -151,3 +151,57 @@
     border-radius: 3px;
   }
 }
+
+@media (max-width: 1269px) {
+  .type-bottom__list {
+   justify-content: center;
+  }
+  .type-bottom__item {
+    
+    width: 48%;
+    height: 100%;
+    padding: 20px;
+    // margin: 0;
+  }
+  .type-bottom__title {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .type-bottom__title {
+margin-left: 0px;
+  }
+  .type-bottom__price {
+margin-left: 0px;
+  }
+  .type-bottom__descr {
+margin-left: 0px;
+  }
+  .type-bottom__link {
+    margin-left: 0px;
+  }
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 780px) {
+  /* CSS для ширины от 576px до 767px */
+  .type-bottom__list {
+    display: block;
+  }
+  .type-bottom__item {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}

@@ -1,4 +1,21 @@
 .header {
+
+.mob-menu {
+  background-color: rgb(142, 98, 217);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 12px 30px;
+		&__iten i{
+      width: 15px;
+      height: 15px;
+      color: #fff;
+		}
+}
+
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -169,6 +186,9 @@ font-size: 15px;
   .header-info {
     max-width: 240px;
   }
+  .header-mob {
+    display: none;
+  }
 }
 @media (max-width: 1230px) {
   .menu__item {
@@ -198,6 +218,9 @@ font-size: 15px;
   .menu {
     justify-content: center;
   }
+  .header {
+    height: 75vh;
+  }
   .menu__item {
     max-width: 320px;
   }
@@ -206,6 +229,12 @@ font-size: 15px;
   }
   .header-info {
     display: none;
+  }
+  .header__info {
+    margin-left: 4.5%;
+  }
+  .top-menu {
+    padding-top: 5px;
   }
 }
 /* md-размер (<=991px) */
@@ -218,18 +247,53 @@ font-size: 15px;
   .menu__item {
     max-width: 270px;
   }
+
 }
 @media (max-width: 840px) {
 .menu { 
   display: none;
 }
+.header-mob {
+  display: block;
+}
+.header__info {
+  margin-top: 15%;
+}
+.top-menu {
+  display: none;
+}
+.header__info {
+  text-align: center;
+}
+.header__title {
+  font-size: 55px;
+  margin: 10px 0px;
+}
+.header__descr {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
 }
 /* sm-размер (<=768px) */
 @media (max-width: 767px) {
   /* CSS для ширины от 576px до 767px */
+  .header__title {
+    font-size: 45px;
+  }
+  .header__descr {
+    font-size: 20px;
+  }
 }
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
   /* CSS для ширины до 575px (включительно) */
+  .header__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .header__descr {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 }

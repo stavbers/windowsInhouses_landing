@@ -49,6 +49,7 @@
   }
 
   &__image {
+    min-width: 150px;
     display: block;
     margin-bottom: 30px;
     border-radius: 50%;
@@ -56,5 +57,41 @@
     &:hover {
       border: 7px solid #F26689;
     }
+  }
+}
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .house-type__title {
+    font-size: 36px;
+  }
+  .type-block__image {
+  min-width: 120px;
+  }
+
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+  .type-block__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .house-type__title {
+    padding-top: 50px;
+  }
+  .house-type__subtitle {
+    padding-bottom: 100px;
   }
 }
