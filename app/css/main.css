@@ -254,6 +254,31 @@ a {
   border: 1px solid #fff;
 }
 
+.header__info {
+  max-width: 720px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+}
+.header__title {
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header__descr {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 15%;
+}
+.header__link {
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #F26689;
+  border-radius: 3px;
+  padding: 12px 20px;
+}
+
 @media (max-width: 1270px) {
   .menu__item {
     max-width: 320px;
